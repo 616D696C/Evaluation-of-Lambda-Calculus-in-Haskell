@@ -5,7 +5,7 @@ import Data.Char
 import Data.Maybe
 
 ----------------------------
-    		Parser Part		
+        Parser Part		
 ----------------------------
 
 newtype Parser a =  P (String -> [(a,String)])
